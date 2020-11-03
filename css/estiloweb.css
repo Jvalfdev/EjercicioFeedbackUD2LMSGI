@@ -1,0 +1,19 @@
+
+.cabecera{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: darksalmon;
+    text-shadow: 5px 5px 2px burlywood;
+    border: 5px;
+    
+    
+}
+body{
+
+    background-image: url("C:/Users/Jose Vallejo/Documents/DAM/LMSI/Ejercicio Feedback UD2/img/fondo_madera.jpg");
+    
+}
+section{
+    margin-left: 60px;
+    margin-right: 60px;    
+}
