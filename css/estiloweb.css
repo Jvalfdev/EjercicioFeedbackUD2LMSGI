@@ -2,9 +2,10 @@
 .cabecera{  
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 70px;
     color: darksalmon;
     text-shadow: 5px 5px 2px burlywood;
-    border: 5px;
+    -webkit-text-stroke: 3px black;
     
     
 }
@@ -16,4 +17,41 @@ body{
 section{
     margin-left: 60px;
     margin-right: 60px;    
+}
+
+
+.link:hover {
+    color: #FF0000; 
+    }
+    
+    
+.link:visited {
+    color: #828382; 
+    }
+    
+    
+.link:link {
+    color: brown ;
+}
+section{
+    margin: auto 300px;
+    background-color: blanchedalmond;
+    border: brown 3px solid;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#footer{
+    margin: auto 650px;
+    border: black solid 3px;
+    background-color: burlywood;
+}
+#img{
+    border: black solid 3px;
+}
+nav{
+    margin: auto 600px;
+    border: black solid 3px;
+    background-color: burlywood;
 }
