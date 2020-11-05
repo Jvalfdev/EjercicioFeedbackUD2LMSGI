@@ -1,5 +1,51 @@
 @charset "UTF-8";
 
+.flotante {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+   
+img {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    display: none;
+    width: 12em;
+    height: 12em;
+    z-index: 5;
+    border: black 2px solid;
+}
+   
+.flotante:hover img {
+    display: block;
+}
+
+.tabla {
+    width: 40em;
+    border: 2px solid #000;
+    background-color: saddlebrown;
+}
+.tabla th, .tabla td {
+    border: 2px solid #000;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    
+}
+.celdamenu{
+    background-color: rgb(63, 30, 7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px black;
+}
+.fondoceldas{
+    background-color: whitesmoke;
+}
+
 .cabecera{  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -10,6 +56,11 @@
     
     
 }
+hr {
+    color: salmon;
+    height: 0px;
+    border:1px dashed;
+}
 body{
 
     background-image: url("C:/Users/Jose Vallejo/Documents/DAM/LMSI/Ejercicio Feedback UD2/img/fondo_madera.jpg");
@@ -17,7 +68,7 @@ body{
     
     
 }
-
+  
 
 
 .link:hover {
@@ -44,7 +95,7 @@ body{
     margin: auto 20px;
     font-size: 30px;
 }
-section{
+/*section{
     margin: auto 10em;
     background-color: blanchedalmond;
     border: black 3px solid;
@@ -52,7 +103,7 @@ section{
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-}
+}*/
 #footer{
     margin: auto 35em ;
     border: black solid 3px;
@@ -63,7 +114,7 @@ section{
     border: black solid 3px;
 }
 nav{
-    margin: auto 24em;
+    margin: auto 20em;
     border: black solid 3px;
     background-color: burlywood;
     padding-top: 10px;
@@ -72,3 +123,5 @@ nav{
     
     
 }
+
+

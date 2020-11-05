@@ -5,32 +5,32 @@
   <meta http-equiv="Restaurante Asador Woko" charset="UTF-8"><!--Aquí doy información del documento y establezco la codificación UTF-8 -->
   <meta name="keywords" content="Restaurante, Asador, Parrilla, Woko"> <!--En esta línea añado palabras clave para el buscador-->
   <title>Restaurante Asador Woko</title> 
-  <link rel="stylesheet" href="css/estiloweb.css"/>
+  <link rel="stylesheet" href="css/estiloreserva.css"/>
   
  </head> 
  
  <body>
-    <header><h1 align="center" class="cabecera">Restaurante Asador Woko</h1></header>
-    <nav align="center"><u><a href="index.html">Presentación</a></u>  <u><a href="menu.html">Menú</a></u> <u><a href="Reserva.html">Reservas</a></u></nav>
-    <hr>
-  <form align="center" action="mailto:jvalf2018@gmail.com" method="post" enctype="text/plain">
+  <header><h1 align="center" class="cabecera">Restaurante Asador Woko</h1></header>
+  <nav align="center"><u><a href="index.html" class="link">Presentación</a></u>  <u><a href="menu.html" class="link">Menú</a></u> <u><a href="Reserva.html" class="link">Reservas</a></u></nav>
+  <hr>
+  <section><form align="center" action="mailto:jvalf2018@gmail.com" method="post" enctype="text/plain">
    <div><label for="nombre">Nombre</label>
-   <input name="nombre" type="text" required></div>
+   <input name="nombre" type="text" required class="difinput"></div>
    <br>
    <div><label for="tarjeta">Nº Tarjeta de Crédito</label><!--Para tarjeta de crédito usé "maxlenght" para poner un número máximo de caracteres my "placeholder" para ayudar al usuario a introducir los datos-->
-   <input name="tarjeta" type="tel"  maxlength="19" placeholder="xxxx xxxx xxxx xxxx"><small>"Ingrese sólo valores numéricos"</small></div>
+   <input name="tarjeta" type="tel"  maxlength="19" placeholder="xxxx xxxx xxxx xxxx" class="difinput"><small>"Ingrese sólo valores numéricos"</small></div>
    <br>
-   <div>Fecha y hora:<input type="date" name="dia"required><input type="time" name="hora" min="20:00" max="23:00" required /><small>"Elija una hora entre las 20:00 y las 23:00"</small><!--"Min" y "max" determinan el rango de horas a las que se puede reservar-->
+   <div>Fecha y hora:<input type="date" name="dia"required class="difinput"/><input type="time" name="hora" min="20:00" max="23:00" required class="difinput"/><small>"Elija una hora entre las 20:00 y las 23:00"</small><!--"Min" y "max" determinan el rango de horas a las que se puede reservar-->
    </div>
    <br>
-   <div>Comentario:<br><textarea rows="5" cols="20" name="comentario"></textarea>
+   <div>Comentario:<br><textarea rows="5" cols="20" name="comentario" class="difinput"></textarea>
    </div>
    <br>
-   <div>Parking<input name="parking" type="checkbox" value="si">
+   <div>Parking<input name="parking" type="checkbox" value="si" class="difinput"/>
    </div>
    <br>
    <div>Número de comensales:
-    <select name="comensales" required>
+    <select name="comensales" required class="difinput">
      <option>1</option>
 	 <option>2</option>
 	 <option>3</option>
@@ -40,9 +40,10 @@
    <br>
    <div>
     <input name="sub" type="submit" value"Enviar">
-	<input name="res" type="reset" value="Borrar Datos">
+	  <input name="res" type="reset" value="Borrar Datos">
    </div>
   </form>
+  </section>
   <br>
   <footer><hr><!--A pie de página he incluido tanto un link para llamar por teléfono al restaurante al clickar sobre él, como un enlace a google maps de la localización-->
     <div align="center"><small>Restaurante Asador Woko<br><a href="tel:+34 988451263">Tfno: 988451263</a><br>
