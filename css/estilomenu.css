@@ -101,6 +101,30 @@ body{
     margin: auto 20px;
     font-size: 30px;
 }
+#botonarriba{
+
+    border: black solid 2px;
+    text-align: center;
+    margin: auto 40%;
+    background-color: burlywood;      
+}
+#botonarriba:hover {
+    color: #FF0000; 
+    font-size: 18px;
+    background-color: palegoldenrod;
+    border: black solid 2px;
+    padding: 3px;
+    font-weight: bold;    
+}
+#botonarriba:link {
+    color: black ;
+    font-size: 14px;
+    padding: 2px;
+}
+#estiloboton{
+    color: black ;
+    font-size: 14px;
+}
 /*section{
     margin: auto 10em;
     background-color: blanchedalmond;
