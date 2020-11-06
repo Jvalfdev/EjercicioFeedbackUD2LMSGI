@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+#indimg{
+    border: 2px solid black;
+    background-color: bisque;
+    margin: auto 35%;
+    padding: 3px;
+}
+
 .flotante {
     position: relative;
     text-decoration: none;
@@ -57,9 +64,8 @@ img {
     
 }
 hr {
-    color: salmon;
-    height: 0px;
-    border:1px dashed;
+    border-top: 2px solid saddlebrown;
+	border-bottom: 2px solid sandybrown;
 }
 body{
 

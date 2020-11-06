@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+hr {
+    border-top: 2px solid saddlebrown;
+	border-bottom: 2px solid sandybrown;
+}
+
 textarea{
     width: 35%;
     height: 35%;
